@@ -1,0 +1,12 @@
+[
+  {
+    "filename": "resume.pdf",
+    "filetype": "application/pdf",
+    "file": {
+      "$binary": {
+        "base64": "",
+        "subType": "00"
+      }
+    }
+  }
+]

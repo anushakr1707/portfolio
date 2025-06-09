@@ -1,0 +1,98 @@
+/* Global Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #111010;
+  min-height: 100vh;
+}
+
+.about-container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f8bc08;
+}
+
+.about-intro {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  color: #0a0909;
+}
+
+.info-section {
+  margin-bottom: 60px;
+}
+
+.info-section h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  border-left: 6px solid #ffe600;
+  padding-left: 15px;
+  color: #ffe600;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.6);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 2.3rem;
+    color: #e68d08;
+  }
+
+  .about-intro {
+    font-size: 1rem;
+  }
+
+  .info-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .card h3 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 0.95rem;
+  }
+}
